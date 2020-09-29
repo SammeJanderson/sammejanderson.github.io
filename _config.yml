@@ -2,4 +2,9 @@ theme: jekyll-theme-merlot
 title: Welcome to Samme Janderson's homepage
 description: Feel free to bookmark this to keep an eye in my project updates
 
+.
+├── about.md    # => http://example.com/about.html
+├── index.html    # => http://example.com/
+└── contact.html  # => http://example.com/contact.html
+
 
