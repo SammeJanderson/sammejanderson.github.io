@@ -3,4 +3,4 @@
 Atualmente sofrendo para aprender programação.
 
 
-![homer](https://giphy.com/gifs/IPbS5R4fSUl5S/html5)
+![homer estudando](https://media.tenor.com/images/7e1aa418d4bba5223de7791e16da8a01/tenor.gif)
