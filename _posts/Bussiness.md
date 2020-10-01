@@ -4,7 +4,7 @@ title: "BUSSINES INTELIGENCE"
 date: 2020-10-1 hh:mm:ss -0000
 categories: CATEGORY-1 CATEGORY-2
 
-# bussiness Inteligence em modelo de datos
+# Bussiness Inteligence em Modelo de Datos
 
 o BI é compostoto por Basicamente
 
