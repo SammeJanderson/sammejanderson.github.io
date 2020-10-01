@@ -16,19 +16,23 @@ o BI é compostoto por Basicamente
 
 # Data warewhouse
 
-uma estratégia de comutaão de dados para dar suporte a BI
+uma estratégia de comutação de dados para dar suporte a BI
 
-OLTPXOLAP
+## OLTP vs OLAP
 
-OLTP Online trasction processing
-tem de atender uma vaga gama de ususariso
-OLAP Online Analytical Processing
-atende uma gama mais reduzida
+**OLTP Online trasction processing**
 
-na pratica
+**OLAP Online Analytical Processing**
+
+
 
 ![OLTPxOLAP](https://imagens.canaltech.com.br/51280-OLTP-e-OLAP.png)
 
-# big data - dados não Estruturados
+# BigData - Dados (não) Estruturados
 
-# Datalake
+BigData é o Termo que Descreve o grande volume de dados tanto estrututados quanto não estruturados.
+
+
+# DataLake
+
+Data Lake é um termo recente, criado pelo CTO (Chief Technical Officer) do Pentaho, James Dixon, para descrever um componente importante no universo da análise de dados e do Big Data. A ideia é ter um único repositório dentro da empresa, para que todos os dados brutos estejam disponíveis a qualquer pessoa que precise fazer análise sobre eles. Comumente utiliza-se o Hadoop para trabalhar com os Data Lakes, mas o conceito é bem mais amplo do que apenas Hadoop.
