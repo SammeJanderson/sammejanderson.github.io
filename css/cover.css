@@ -141,3 +141,8 @@ body {
   background-color: transparent;
   border-color: #ccc;
 }
+
+#secretgame:hover{
+  paddding: 10px;
+  background-color: white;
+}
