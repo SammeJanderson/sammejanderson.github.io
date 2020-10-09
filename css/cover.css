@@ -132,3 +132,12 @@ body {
 .lead{
   text-align: center;
 }
+
+.secretgame{
+  justify-content: start;
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+}
