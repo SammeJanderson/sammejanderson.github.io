@@ -1,5 +1,27 @@
 theme: jekyll-theme-slate
+
+title: Samme Janderson
+description: Desenvolvedor Java
+
+
+twiter:
+username: Samme_Janderson
+
+social:
+  name: Samme Janderson
+  links:
+    https://twitter.com/Samme_Janderson/
+    https://www.linkedin.com/in/samme-janderson-0147311b7/
+    https://github.com/SammeJanderson
+    https://samme-janderson.medium.com/
+    
+    
+google_site_verification
+
+
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
   
   
