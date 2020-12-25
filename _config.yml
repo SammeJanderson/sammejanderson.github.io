@@ -1,3 +1,16 @@
 theme: jekyll-theme-slate
 plugins:
   - jekyll-seo-tag
+  
+  
+  <!--SEO-->
+  Home | Samme Janderson
+  Samme Janderson | Desenvolvedor Java
+  url | sammejanderson.github.io
+  
+social:
+  name: Samme Janderson
+  links: 
+  https://www.linkedin.com/in/samme-janderson-0147311b7/
+  https://twitter.com/SammeRodrigues
+  https://github.com/SammeJanderson
