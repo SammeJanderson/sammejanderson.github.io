@@ -46,9 +46,19 @@ ul a{
 
 #about{
     display:flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     height: 100%;
     background: #3a6436;
+    text-align: center;
+}
+
+#about h1{
+    color: white;
+    font-size: min(10px, 100vw);
+
 }
 
 #main-blog{
