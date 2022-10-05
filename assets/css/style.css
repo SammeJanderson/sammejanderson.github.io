@@ -54,5 +54,24 @@ ul a{
     display: flex;
     width: 100%;
     height: 100%;
+    padding: 2%;
     background: #edf2d8;
+}
+
+#postTemplate{
+    margin: auto;
+    padding: 2%;
+    background-color: #d6dbbe;
+    max-width: 80%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(184, 189, 163, 0.7);
+}
+
+#postTitle{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#postContent{
+    font-family: 'Poppins', sans-serif;
+
 }
