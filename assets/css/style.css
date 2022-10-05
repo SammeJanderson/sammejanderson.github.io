@@ -1,0 +1,23 @@
+#navbar{
+    background: black;
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+ul{
+    display: flex;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 2.2rem;
+    padding: 1rem;
+}
