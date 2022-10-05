@@ -1,8 +1,16 @@
+#blog-title{
+    color: white;
+    font-size: 2.2rem;
+    margin-left: 70px;
+    display: block;
+    padding: 0;
+}
+
 #navbar{
+    justify-content:space-between;
     background: black;
     display: flex;
     position: fixed;
-    justify-content: flex-end;
     left: 0;
     top: 0;
     width: 100%;
