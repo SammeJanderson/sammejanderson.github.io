@@ -21,3 +21,11 @@ ul a{
     font-size: 2.2rem;
     padding: 1rem;
 }
+
+#main-blog{
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
