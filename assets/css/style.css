@@ -1,13 +1,13 @@
 body{
-    padding-top: min(10%, 4vw);
-    background: white;
+    padding-top: min(78px, 100vw);
+    background: black;
 }
 
 
 #blog-title h1{
-   font-size: min(20px, 100vw);
-   color: white;
-   margin-left: 70px;
+    font-size: min(20px, 100vw);
+    color: white;
+    margin-left: 70px;
 }
 
 #navbar{
