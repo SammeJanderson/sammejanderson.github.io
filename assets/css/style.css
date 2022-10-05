@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap');
+
+
+
 body{
     padding-top: min(78px, 100vw);
     background: black;
@@ -5,7 +9,7 @@ body{
 
 
 #blog-title h1{
-    font-size: min(20px, 100vw);
+    font-size: min(40px, 100vw);
     color: white;
     margin-left: 70px;
 }
@@ -22,6 +26,7 @@ body{
     width: 100%;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
+    
 }
 
 ul{
@@ -50,14 +55,33 @@ ul a{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 50vh;
     background: #3a6436;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about a {
+    text-decoration: none;
+    color: #d6dbbe;
+}
+
+
+a:hover{
+    font-size: larger;
+    background-color: black;
+    border-radius: 10%;
 }
 
 #about h1{
     color: white;
-    font-size: min(10px, 100vw);
+    font-size: min(50px, 100vw);
+}
+
+#about p{
+    color: #d6dbbe;
+    font-size: min(25px, 100vw);
+    padding: 0 10px 30px 10px;
 
 }
 
