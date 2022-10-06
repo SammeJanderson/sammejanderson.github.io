@@ -88,15 +88,16 @@ p a:hover{
 }
 
 #main-blog{
-    display: flex;
+    display:flex;
     width: 100%;
     height: 100%;
     padding: 2%;
     background: #edf2d8;
 }
 
-#postTemplate{
-    margin: auto;
+.postTemplate{
+    margin: 1%;
+    position: center;
     padding: 2%;
     background-color: #d6dbbe;
     max-width: 80%;
@@ -104,11 +105,11 @@ p a:hover{
     box-shadow: 3px 3px 3px rgba(184, 189, 163, 0.7);
 }
 
-#postTitle{
+.postTitle{
     font-family: 'Montserrat', sans-serif;
 }
 
-#postContent{
+.postContent{
     font-family: 'Poppins', sans-serif;
 
 }
@@ -120,9 +121,7 @@ p a:hover{
     position:fixed;
     bottom: 0;
     left:0;
-    text-align: right;
-}
-
-#footer p{
-    color: white;
+    text-align: center;
+    color: #D6DBBE;
+    margin-right: 10px;
 }
