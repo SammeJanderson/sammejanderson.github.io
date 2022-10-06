@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 
 
@@ -9,6 +10,7 @@ body{
 
 
 #blog-title h1{
+    font-family: 'Amatic SC', cursive;
     font-size: min(40px, 100vw);
     color: white;
     margin-left: 70px;
@@ -16,7 +18,7 @@ body{
 
 #navbar{
     padding: auto;
-    height: max(6%, 5vw);
+    height: max(6%, 4vw);
     justify-content:space-between;
     background: black;
     display:flex;
@@ -34,7 +36,7 @@ ul{
 }
 
 ul a{
-    font-size: max(50%, 2vw);
+    font-size: max(100%, 1vw);
     color: white;
     text-decoration: none;
     display: block;
@@ -67,7 +69,7 @@ ul a{
 }
 
 
-a:hover{
+p a:hover{
     font-size: larger;
     background-color: black;
     border-radius: 10%;
