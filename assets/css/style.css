@@ -76,6 +76,7 @@ ul a{
     width: 70px;
     font-weight: bold;
     background: black;
+    cursor: pointer;
 
 }
 
