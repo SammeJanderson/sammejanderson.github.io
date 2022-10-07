@@ -10,20 +10,30 @@
     <title>Samme Janderson</title>
 </head>
 <body>
+<!--Barra de navegação-->
     <nav id="navbar">
         <div id="blog-title"><h1>Samme Janderson</h1></div>
         <ul>
             <li>
-                <a href="#about"><i class="fa-regular fa-address-card"></i></i> About</a>
+                <a href="#about"><i id="icon-nav" class="fa-regular fa-address-card"></i></i> About</a>
             </li>
 
             <li>
-                <a href="#main-blog"><i class="fa-solid fa-laptop-code"></i> Blog</a>
+                <a href="#main-blog"><i id="icon-nav" class="fa-solid fa-laptop-code"></i> Blog</a>
             </li>
+
+            <!--Barra de pesquisa-->
+            <div id="searchBar">
+                <input type="text" id="searchText" placeholder="Search..." />
+                <button id="btnSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
+                
+            </div>
         </ul>
     </nav>
 
+<!--Conteiner de About e POstagens-->
 <div id="container">
+<!--Sobre o Autor-->
     <section id="about">
         
         <h1><i class="fa-solid fa-terminal"></i> Hey, Welcome! Let me intruduce myself</h1>
@@ -32,6 +42,7 @@
         <p>You can get in touch via <a href="https://www.linkedin.com/in/sammejanderson/" target="_blank">linkedin</a> and <a href="https://github.com/SammeJanderson" target="_blank">github</a>. Let's talk. <i class="fa-solid fa-cat"></i></p>
     </section>
 
+<!--Parte central das postagens do Blog-->
     <section id="main-blog">
         <div class="postTemplate">
             <h3 class="postTitle">This is just a Template</h3>
@@ -45,6 +56,8 @@
         </div>
     </section>
 </div>
+
+<!--Rodapé-->
     <footer id="footer">
         <p>All the content in this page is sourced and written by Samme J.<a></a></p>
     </footer>
