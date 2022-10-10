@@ -10,52 +10,80 @@
     <title>Samme Janderson</title>
 </head>
 <body>
-<!--Barra de navegação-->
-    <nav id="navbar">
+    <nav id="navBar" class="nav">
         <div id="blog-title"><h1>Samme Janderson</h1></div>
-        <ul>
+        <ul class="nav-list">
             <li>
-                <a href="#about"><i id="icon-nav" class="fa-regular fa-address-card"></i></i> About</a>
+                <a href="#welcome-section"><i id="icon-nav" class="fa-regular fa-address-card"></i> About</a>
             </li>
-
             <li>
-                <a href="#main-blog"><i id="icon-nav" class="fa-solid fa-laptop-code"></i> Blog</a>
+                <a href="#posts"><i id="icon-nav" class="fa-solid fa-laptop-code"></i> Blog</a>
             </li>
-
-            <!--Barra de pesquisa-->
-            <div id="searchBar">
-                <input type="text" id="searchText" placeholder="Search..." />
-                <button id="btnSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
-                
-            </div>
         </ul>
     </nav>
 
-<!--Conteiner de About e POstagens-->
-<div id="container">
-<!--Sobre o Autor-->
-    <section id="about">
-        
+    <section id="welcome-section" class="welcome-section">
         <h1><i class="fa-solid fa-terminal"></i> Hey, Welcome! Let me intruduce myself</h1>
-        <br>
         <p>My name is Samme, I'm a software engineer at QuintoAndar, this page is to share knowledge acquired during my journey with programming, code and data science.</p>
         <p>You can get in touch via <a href="https://www.linkedin.com/in/sammejanderson/" target="_blank">linkedin</a> and <a href="https://github.com/SammeJanderson" target="_blank">github</a>. Let's talk. <i class="fa-solid fa-cat"></i></p>
     </section>
 
-<!--Parte central das postagens do Blog-->
-    <section id="main-blog">
-        <div class="postTemplate">
-            <h3 class="postTitle">This is just a Template</h3>
-            <hr>
-            <p class="postContent">This is the main part of the content, just a piece of text to test it.</p>
+    <section id="search" class="search-section">
+        <div class="text-search-section">
+            <h2>Looking for something specific?</h2>
         </div>
-        <div class="postTemplate">
-            <h3 class="postTitle">This is just a Template</h3>
-            <hr>
-            <p class="postContent">This is the main part of the content, just a piece of text to test it.</p>
+
+        <div class="search-bar">
+            <input type="text" id="searchText" placeholder="Search..." />
+            <button id="btnSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
     </section>
-</div>
+
+    <section id="posts" class="posts-section">
+        <h2 class="posts-section-header">Here some of my thoughts</h2>
+
+        <div class="posts-grid">
+
+            <a 
+                href=""
+                class="project post-title">
+                    <p class="post-title">Soon</p>
+            </a>
+
+            <a 
+                href=""
+                class="project post-title">
+                    <p class="post-title">Soon</p>
+            </a>
+                
+            <a 
+                href=""
+                class="project post-title">
+                    <p class="post-title">Soon</p>
+            </a>
+                
+            <a 
+                href=""
+                class="project post-title">
+                    <p class="post-title">Soon</p>
+            </a>
+                
+            <a 
+                href=""
+                class="project post-title">
+                    <p class="post-title">Soon</p>
+            </a>
+                
+            <a 
+                href=""
+                class="project post-title">
+                    <p class="post-title">Soon</p>
+            </a>
+                
+
+        </div>
+    </section>
+    
 
 <!--Rodapé-->
     <footer id="footer">

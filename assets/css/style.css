@@ -2,62 +2,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 
+/*GERAL*/
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
 
-
-body{
-    padding-top: min(78px, 100vw);
-    background: black;
-    position: absolute;
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 
-#blog-title h1{
+body {
+    color: black;
+    margin: 0;
+}
+
+/*NAVBAR*/
+#blog-title {
     font-family: 'Amatic SC', cursive;
-    font-size: min(40px, 100vw);
-    color: #edf2d8;
+    color: #EDF2D8;
     margin-left: 70px;
+    font-size: 1.7rem;
 }
 
-#navbar{
-    padding: auto;
-    height: max(6%, 4vw);
-    justify-content:space-between;
-    background: black;
-    display:flex;
-    position:fixed;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    background-color: black;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
 
-#icon-nav{
-    color: #3a6436;
+#icon-nav {
+    color: #3A6436;
 }
 
-ul{
+.nav-list {
     display: flex;
+    margin-right: 1rem;
 }
 
-ul a{
-    font-size: max(100%, 1vw);
-    color: white;
-    text-decoration: none;
+.nav-list a {
     display: block;
-    padding: 1rem;
+    font-size: 2.2rem;
+    padding: 2rem;
+    color: #EDF2D8;
+    text-decoration: none;
 }
 
-#searchBar{
+.nav-list a:hover {
+    background: #EDF2D8;
+    color: #3A6436;
+    border-radius: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+        justify-content: center;
+    }
+
+    .nav-list {
+        margin: 0 1rem;
+    }
+}
+
+/*ABOUT*/
+.welcome-section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #3a6436;
+    color: #EDF2D8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-section a {
+    text-decoration: none;
+    color: #EDF2D8;
+}
+
+.welcome-section h1 {
+    font-size: 4rem;
+    padding-top: 100px;
+}
+
+.welcome-section p {
+    font-size: 3rem;
+    padding: 0 10px 30px 10px;
+}
+
+p a:hover {
+    font-size: larger;
+    background-color: black;
+    border-radius: 10%;
+}
+
+/*BARRA DE PESQUISA*/
+.search-section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.text-search-section {
+    color: #edf2d8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.search-bar {
     background-color: #edf2d8;
     border: solid 2px #3a6436;
     border-radius: 10px;
     width: 300px;
     height: 32px;
-    margin-right: 20px;
+    margin: 2rem;
 }
 
-#searchText{
+#searchText {
     float: left;
     background-color: transparent;
     padding-left: 5px;
@@ -65,13 +149,13 @@ ul a{
     border: none;
     height: 32px;
     width: 223px;
-    
+
 }
 
-#btnSearch{
+#btnSearch {
     border: none;
     float: left;
-    height: 32px;
+    height: 33px;
     border-radius: 0 7px 7px 0;
     width: 70px;
     font-weight: bold;
@@ -80,89 +164,52 @@ ul a{
 
 }
 
-#searchBar i{
+.search-bar i {
     color: #3a6436;
 }
 
-#container{
-    display:block;
-    position:fixed;
-    flex-direction: column;
-    width: 100%;
-    left: 0;
+/*MAIN BLOG*/
+.posts-section{
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: #EDF2D8;
 }
 
-#about{
-    display:flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 50vh;
-    background: #3a6436;
-    text-align: center;
+.posts-section-header{
+    font-size: 3rem;
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
     font-family: 'Montserrat', sans-serif;
 }
 
-#about a {
+.posts-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+
+.post-title{
+    font-size: 3rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+.posts-grid a{
+    color: black;
     text-decoration: none;
-    color: #d6dbbe;
+    font-weight: bold;
 }
 
-
-p a:hover{
-    font-size: larger;
-    background-color: black;
-    border-radius: 10%;
-}
-
-#about h1{
+.posts-grid a:hover{
+    background-color: #3A6436;
+    border-radius: 20px;
     color: white;
-    font-size: min(50px, 100vw);
-}
-
-#about p{
-    color: #d6dbbe;
-    font-size: min(25px, 100vw);
-    padding: 0 10px 30px 10px;
-
-}
-
-#main-blog{
-    display:flex;
-    width: 100%;
-    height: 100%;
-    padding: 2%;
-    background: #edf2d8;
-}
-
-.postTemplate{
-    margin: 1%;
-    position: center;
-    padding: 2%;
-    background-color: #d6dbbe;
-    max-width: 80%;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px rgba(184, 189, 163, 0.7);
-}
-
-.postTitle{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.postContent{
-    font-family: 'Poppins', sans-serif;
-
-}
-
-#footer{
-    background: black;
-    width: 100%;
-    height: auto;
-    position:fixed;
-    bottom: 0;
-    left:0;
-    text-align: center;
-    color: #D6DBBE;
-    margin-right: 10px;
 }
